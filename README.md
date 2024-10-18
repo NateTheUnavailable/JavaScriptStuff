@@ -6,7 +6,7 @@ This is to showcase how to use a log to print text, how to use if statements for
 
 Demo of my program in the link
 
-[Software Demo Video](https://youtu.be/U0ReifXNH7I)
+[Software Demo Video](https://youtu.be/CP3GNqwZJs0)
 
 # Development Environment
 * Visual Studio Code
