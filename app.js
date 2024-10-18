@@ -8,8 +8,7 @@ console.log("C. Figure out a Car Loan")
 console.log("D. Figure out the smallest number")
 console.log("E. Figure out the largest number")
 console.log("F. Read From Text File")
-console.log("G. Figure out a Car Loan")
-console.log("H. Quit")
+console.log("G. Quit")
 
 const choice = prompt("You Choose: ")
 
@@ -26,10 +25,14 @@ if(choice == "B" || choice == "b"){
     console.log("The temperature in Farenheight is " + C + "°F")
 }
 if(choice == "C" || choice == "c"){
-    let temp = prompt("What is the temperature in Farenheight?")
-    let F = Number(parseInt(temp))
-    C = (F - 32) * (5/9)
-    console.log("The temperature in Celsius is " + C + "°C")
+    let input1 = prompt("Loan Amount: $	");
+    let input2 = prompt("Loan Term In Months: ");
+    let input3 = prompt("Interest Rate: %");
+    let loan = parseInt(input1);
+    let month = parseInt(input2);
+    let rate = parseInt(input3/100);
+    let total = (loan * (1 + rate)) / month
+    console.log("You have to pay $" + total + " every month")
 }
 if(choice == "D" || choice == "d"){
     let targetNumber = 6
@@ -82,16 +85,7 @@ if(choice == "F" || choice == "f"){
     console.log(data);
 })
 }
+
 if(choice == "G" || choice == "g"){
-    let input1 = prompt("Loan Amount: $	");
-    let input2 = prompt("Loan Term In Months: ");
-    let input3 = prompt("Interest Rate: %");
-    let loan = parseInt(input1);
-    let month = parseInt(input2);
-    let rate = parseInt(input3/100);
-    let total = (loan * (1 + rate)) / month
-    console.log("You have to pay $" + total + " every month")
-}
-if(choice == "H" || choice == "h"){
     console.log('Terminated');
 }
