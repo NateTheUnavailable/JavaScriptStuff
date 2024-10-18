@@ -13,25 +13,25 @@ console.log("H. Quit")
 
 const choice = prompt("You Choose: ")
 
-if(choice == "A"){
+if(choice == "A" || choice == "a" ){
     let temp = prompt("What is the temperature in Farenheight?")
     let F = Number(parseInt(temp))
     C = (F - 32) * (5/9)
     console.log("The temperature in Celsius is " + C + "°C")
 }
-if(choice == "B"){
+if(choice == "B" || choice == "b"){
     let temp = prompt("What is the temperature in Celsius?")
     let F = Number(parseInt(temp))
     C = (F  * (9/5)) + 32
     console.log("The temperature in Farenheight is " + C + "°F")
 }
-if(choice == "C"){
+if(choice == "C" || choice == "c"){
     let temp = prompt("What is the temperature in Farenheight?")
     let F = Number(parseInt(temp))
     C = (F - 32) * (5/9)
     console.log("The temperature in Celsius is " + C + "°C")
 }
-if(choice == "D"){
+if(choice == "D" || choice == "d"){
     let targetNumber = 6
     let sum = [];
     let count = 0;
@@ -52,7 +52,7 @@ if(choice == "D"){
       const min = sum[0];
       console.log("the minimum number inputed is " + min)
 }
-if(choice == "E"){
+if(choice == "E" || choice == "e"){
     let targetNumber = 6
     let sum = [];
     let count = 0;
@@ -73,7 +73,7 @@ if(choice == "E"){
       const max = sum[5];
       console.log("the minimum number inputed is " + max)
 }
-if(choice == "F"){
+if(choice == "F" || choice == "f"){
     fs.readFile('text.txt', 'utf8', (err,data)=>{
     if(err){
         console.error(err);
@@ -82,7 +82,7 @@ if(choice == "F"){
     console.log(data);
 })
 }
-if(choice == "G"){
+if(choice == "G" || choice == "g"){
     let input1 = prompt("Loan Amount: $	");
     let input2 = prompt("Loan Term In Months: ");
     let input3 = prompt("Interest Rate: %");
@@ -92,6 +92,6 @@ if(choice == "G"){
     let total = (loan * (1 + rate)) / month
     console.log("You have to pay $" + total + " every month")
 }
-if(choice == "H"){
+if(choice == "H" || choice == "h"){
     console.log('Terminated');
 }
