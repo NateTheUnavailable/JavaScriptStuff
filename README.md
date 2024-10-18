@@ -19,5 +19,4 @@ Demo of my program in the link
 * [Car Loan Calculator](https://www.calculatorsoup.com/calculators/financial/car-loan-calculator.php)
 * [Add elements to an array in JavaScript](https://habtesoft.medium.com/add-elements-to-an-array-in-javascript-a9cc6cd9469f)
 * [Sorting an Array](https://www.w3schools.com/js/js_array_sort.asp#mark_sort)
-* [Sorting an Array](https://www.w3schools.com/js/js_array_sort.asp#mark_sort)
 * [How to Read and Write to Text Files in JavaScript](https://www.youtube.com/watch?v=zMX3gqs3Y7I)
