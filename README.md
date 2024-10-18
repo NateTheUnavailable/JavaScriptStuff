@@ -15,10 +15,9 @@ Demo of my program in the link
 
 # Useful Websites
 
-* [Java User Input (Scanner)](https://code.visualstudio.com/docs/sourcecontrol/overview)
-* [Java FileReader (read a file)](https://www.youtube.com/watch?v=Hr8tLlj32BQ)
-* [Java File Input/Output - It's Way Easier Than You Think](https://www.youtube.com/watch?v=ScUJx4aWRi0)
-* [Is it possible to clear the console during execution in a Java workspace?]()
-* [&& (AND) and || (OR) in IF statements](https://stackoverflow.com/questions/1795808/and-and-or-in-if-statements)
-* [How to get the current working directory in Java](https://mkyong.com/java/how-to-get-the-current-working-directory-in-java/#:~:text=In%20Java%2C%20we%20can%20use,where%20your%20program%20was%20launched.)
-* [The House on Maple Hill](https://chooseyourstory.com/story/the-house-on-maple-hill)
+* [How to terminate a script in JavaScript ?](https://www.geeksforgeeks.org/how-to-terminate-a-script-in-javascript/)
+* [Car Loan Calculator](https://www.calculatorsoup.com/calculators/financial/car-loan-calculator.php)
+* [Add elements to an array in JavaScript](https://habtesoft.medium.com/add-elements-to-an-array-in-javascript-a9cc6cd9469f)
+* [Sorting an Array](https://www.w3schools.com/js/js_array_sort.asp#mark_sort)
+* [Sorting an Array](https://www.w3schools.com/js/js_array_sort.asp#mark_sort)
+* [How to Read and Write to Text Files in JavaScript](https://www.youtube.com/watch?v=zMX3gqs3Y7I)
